@@ -1,3 +1,5 @@
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 export const Home = () => {
   return (
     <main className="hero-section main">
@@ -11,6 +13,9 @@ export const Home = () => {
             nation.Sort,search, and filter through countries to find the details
             you need.
           </p>
+          <button className="btn btn-darken btn-inline bg-white-box">
+            Start Exploring <FaLongArrowAltRight />
+          </button>
         </div>
         <div className="hero-image"></div>
       </div>
