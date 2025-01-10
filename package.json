@@ -15,7 +15,8 @@
     "react_country_dawood": "file:",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+    "react-spinners": "^0.15.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.9.3",
