@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-
-export const CountryCard = ({ country }) => {
+import { memo } from "react";
+const CountryCardComponent = ({ country }) => {
   const { flags, name, population, region, capital } = country;
   return (
     <li className="country-card  card ">
@@ -33,3 +33,5 @@ export const CountryCard = ({ country }) => {
     </li>
   );
 };
+
+export const CountryCard = memo(CountryCardComponent);
